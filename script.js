@@ -13,3 +13,15 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 
 */
 
+const playButtonEl = document.getElementById("play");
+const gridContainerEl = document.getElementById("gridContainer");
+
+playButtonEl.addEventListener("click", function () {
+    gridContainerEl.innerHTML = "";
+    const squareEl = document.createElement("div");
+    squareEl.style.width = "20px";
+    squareEl.style.height = "20px";
+
+    squareEl.classList.add("square");
+    gridContainerEl.append(squareEl);
+});

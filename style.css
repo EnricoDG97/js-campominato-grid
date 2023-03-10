@@ -7,3 +7,26 @@
 body {
     font-family: sans-serif;
 }
+
+header {
+    padding: 20px;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    margin: 0 auto;
+}
