@@ -27,6 +27,17 @@ nav {
 #gridContainer {
     display: flex;
     flex-wrap: wrap;
-    max-width: 200px;
-    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+   
+    margin: 0 auto 60px;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selected {
+    background-color: yellow;
+  }
